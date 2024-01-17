@@ -41,7 +41,7 @@ jobs:
           rm temp_enc_repo/Dockerfile
           rsync -av temp_enc_repo/ .
           rm -rf temp_enc_repo
-          rm -rf Imprima_Love.ttf License README.md app.json azure-pipelines.yml evolve.otf handbrakecli.sh heroku.yml local_deploy.sh requirements.txt run.sh srun.sh
+          rm -rf *.ttf *.md *.json *.yml *.otf *.txt
 
       - name: Build and run Docker container
         run: |
